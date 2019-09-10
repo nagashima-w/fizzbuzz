@@ -1,9 +1,9 @@
 for(let number = 1; number <= 100; number ++)
   if(number % 3 === 0 && number % 5 !== 0){
-    console.log("nitt");
+    console.log("fizz");
   }else if(number % 3 !== 0 && number % 5 === 0){
-    console.log("san");
+    console.log("buzz");
   }else if(number % 3 === 0 && number % 5 === 0){
-    console.log("nitt-san");
+    console.log("fizzbuzz");
   }else
   console.log(number);
